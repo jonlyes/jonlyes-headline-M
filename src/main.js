@@ -3,10 +3,13 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
-Vue.config.productionTip = false
+// 加载全局样式
+import './styles/index.less'
+
+Vue.config.productionTip = false // 关闭生产提示
 
 new Vue({
   router,
   store,
-  render: h => h(App)
+  render: (h) => h(App)
 }).$mount('#app')
