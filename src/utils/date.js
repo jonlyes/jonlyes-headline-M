@@ -17,3 +17,7 @@ export const timeAgo = (targetTime) => {
   const b = dayjs(targetTime)
   return a.to(b)
 }
+
+export const formDate = (dateObj) => {
+  return dayjs(dateObj).format('YYYY-MM-D')
+}

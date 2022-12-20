@@ -8,7 +8,7 @@ export const setToken = (token) => {
 }
 
 // 获取
-export const getToken = () => localStorage.getItem(key)
+export const getToken = () => localStorage.getItem(key) || 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1NDMyODQzNjYsInVzZXJfaWQiOjF9.mLYitrKsn4E4KdQd0CNPugKrH8uQmXEQTlG_JutC8jU'
 
 // 删除
 export const removeToken = () => {

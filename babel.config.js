@@ -8,6 +8,6 @@ module.exports = {
       libraryDirectory: 'es',
       // 指定样式路径
       style: (name) => `${name}/style/less`
-    }, 'vant']
+    }, 'vant'], '@babel/plugin-proposal-optional-chaining'
   ]
 }
